@@ -3,22 +3,22 @@ import logo from './logo.svg';
 import './App.css';
 
 const meats = ["Tuna", "Salmon", "Octopus", "Scallop", "Squid", "Cod", "Clam",
-"Chicken Thigh", "Chicken Breast", "White Fish",
-"Turkey Breast", "Turkey Drumstick",
-"Pork Ribs", "Pork Shoulder", "Pork Belly", "Pork Chop",
-"Duck Breast", 
-"Chuck Steak", "Beef Brisket",
-"Lamb Shanks", "Shrimp","Prawns",
-"Rabbit", "Pigeon", "Quail","Goose","Venison"];
+              "Chicken Thigh", "Chicken Breast", "White Fish",
+              "Turkey Breast", "Turkey Drumstick",
+              "Pork Ribs", "Pork Shoulder", "Pork Belly", "Pork Chop",
+              "Duck Breast", 
+              "Chuck Steak", "Beef Brisket",
+              "Lamb Shanks", "Shrimp","Prawns",
+              "Rabbit", "Pigeon", "Quail","Goose","Venison"];
 
 const vegetables = ["Cauliflower", "Egg Plant", "Leeks", "Sweet Potato",
-        "Butternut Squash", "Shallots","Bok Choy", "Cherry Tomato", "Cactus", 
-        "Crimini Mushroom", "Portobello Mushroom", "Okra", "Kale"];
+                    "Butternut Squash", "Shallots","Bok Choy", "Cherry Tomato", "Cactus", 
+                    "Crimini Mushroom", "Portobello Mushroom", "Okra", "Kale"];
 
 const sides = ["Red Wine", "Avocado",
-    "Corn tortillas", "Mozarella", "Pickles","Wasabi","Gochujang", "Trail Mix",
-    "Basil", "Cashews", "Dried cherries", "Chocolate covered Espresso beans",
-    "Applesauce","Chips","Orange","Peaches","Old Bay Seasoning","Prosciutto"];
+              "Corn tortillas", "Mozarella", "Pickles","Wasabi","Gochujang", "Trail Mix",
+              "Basil", "Cashews", "Dried cherries", "Chocolate covered Espresso beans",
+              "Applesauce","Chips","Orange","Peaches","Old Bay Seasoning","Prosciutto"];
 
 class App extends React.Component {
   constructor(props) {
