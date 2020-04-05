@@ -1,5 +1,4 @@
 import * as React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 const meats = ["Tuna", "Salmon", "Octopus", "Scallop", "Squid", "Cod", "Clam",
@@ -20,8 +19,8 @@ const sides = ["Red Wine", "Avocado",
               "Basil", "Cashews", "Dried cherries", "Chocolate covered Espresso beans",
               "Applesauce","Chips","Orange","Peaches","Old Bay Seasoning","Prosciutto"];
 
-class App extends React.Component {
-  constructor(props) {
+class App extends React.Component<any, any> {
+  constructor(props: any) {
     super(props);
     this.state = { 
       basket: { meat: '', vegetable: '', side1: '', side2: ''  },
@@ -29,7 +28,7 @@ class App extends React.Component {
     };
   }
 
-  getRandomIngredient = (array) => {
+  getRandomIngredient = (array: string[]) => {
     return array[Math.floor(Math.random() * array.length)];
   }
   
@@ -47,7 +46,7 @@ class App extends React.Component {
     } });
   }
 
-  saveIngredient = (category) => {
+  saveIngredient = (category: string) => {
     let saved = { ...this.state.saved };
     saved[category] = this.state.basket[category];
     this.setState({ saved: saved });
