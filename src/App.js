@@ -60,6 +60,7 @@ class App extends React.Component {
         <div className={"btn-group"}>
           {
             Object.keys(this.state.basket).map((category) => {
+              if (this.state.basket[category] === '') return null;
               let selected = this.state.basket[category] === this.state.saved[category];
               return <button className={"btn"} disabled={selected} onClick={() => this.saveIngredient(category)}>
                       { this.state.basket[category] }
