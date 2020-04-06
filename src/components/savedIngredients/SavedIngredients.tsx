@@ -1,6 +1,6 @@
 import * as React from 'react';
-import '../App.css';
-import Ingredients from '../types/Ingredients';
+import '../../App.css';
+import Ingredients from '../../types/Ingredients';
 
 interface SavedIngredientsProps {
     saved: Ingredients;

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './App.css';
-import Basket from './basket/Basket';
-import SavedIngredients from './savedIngredients/SavedIngredients';
+import Basket from './components/basket/Basket';
+import SavedIngredients from './components/savedIngredients/SavedIngredients';
 import FoodCategory from './types/FoodCategory';
 
 const App = () => {

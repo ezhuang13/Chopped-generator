@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { meats, vegetables, sides } from '../foods';
-import Ingredients from '../types/Ingredients';
+import { meats, vegetables, sides } from '../../constants/foods';
+import Ingredients from '../../types/Ingredients';
 import BasketIngredient from './BasketIngredient';
-import '../App.css';
-import FoodCategory from '../types/FoodCategory';
+import '../../App.css';
+import FoodCategory from '../../types/FoodCategory';
 
 interface BasketProps {
     saved: Ingredients;

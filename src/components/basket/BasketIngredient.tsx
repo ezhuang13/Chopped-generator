@@ -1,6 +1,6 @@
 import * as React from 'react';
-import '../App.css';
-import FoodCategory from '../types/FoodCategory';
+import '../../App.css';
+import FoodCategory from '../../types/FoodCategory';
 
 interface BasketIngredientProps {
     ingredient: string;
