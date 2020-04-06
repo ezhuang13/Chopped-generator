@@ -41,7 +41,7 @@ const Basket = (props: BasketProps) => {
     };
 
     return (
-        <>
+        <div className="basketContainer">
             <button onClick={generateBasket}>Generator chopped basket</button>
             <div>Random basket:</div>
             <div className={'btn-group'}>
@@ -58,7 +58,7 @@ const Basket = (props: BasketProps) => {
                     );
                 })}
             </div>
-        </>
+        </div>
     );
 };
 

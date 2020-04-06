@@ -1,14 +1,29 @@
-div {
-    margin: 5px;
-    padding: 3px;
+.leftNavContainer {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+    background-color: teal;
+}
+
+.basketContainer {
+    height: 75%;
+}
+
+.bodyContainer {
+    width: 100%;
 }
 
 .App {
-    text-align: center;
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 100%;
 }
 
 .saved {
     border: 2px solid black;
+    height: 100%;
 }
 
 .btn-group {

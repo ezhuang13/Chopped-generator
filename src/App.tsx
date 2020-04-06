@@ -17,8 +17,11 @@ const App = () => {
     };
     return (
         <div className="App">
-            <Basket saved={saved} saveIngredient={saveIngredient} />
-            <SavedIngredients saved={saved} />
+            <div className="leftNavContainer">Left nav header</div>
+            <div className="bodyContainer">
+                <Basket saved={saved} saveIngredient={saveIngredient} />
+                <SavedIngredients saved={saved} />
+            </div>
         </div>
     );
 };
