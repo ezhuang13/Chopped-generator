@@ -7,24 +7,29 @@ export const meats = [
     'Cod',
     'Clam',
     'Chicken Thigh',
-    'Chicken Breast',
+    'Chicken Drumstick',
+    'Crab',
+    'Fish Head',
     'White Fish',
     'Turkey Breast',
     'Turkey Drumstick',
+    'Tofu',
     'Pork Ribs',
     'Pork Shoulder',
     'Pork Belly',
     'Pork Chop',
     'Duck Breast',
-    'Chuck Steak',
+    'Steak',
     'Beef Brisket',
     'Lamb Shanks',
     'Shrimp',
     'Prawns',
     'Rabbit',
+    'Paneer',
     'Pigeon',
     'Quail',
     'Goose',
+    'Whole chicken',
     'Venison',
 ];
 
@@ -42,6 +47,12 @@ export const vegetables = [
     'Portobello Mushroom',
     'Okra',
     'Kale',
+    'Brussel Sprouts',
+    'String beans',
+    'Radish',
+    'Broccoli',
+    'Potato',
+    'Tomato'
 ];
 
 export const sides = [
@@ -63,4 +74,8 @@ export const sides = [
     'Peaches',
     'Old Bay Seasoning',
     'Prosciutto',
+    'Salted egg',
+    'Cheese',
+    'Kimchi',
+    'Chickpeas'
 ];
